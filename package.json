@@ -1,0 +1,25 @@
+{
+  "name": "todo-list-v2",
+  "version": "1.0.5",
+  "description": " A beginner-friendly todo list application built with TypeScript and Node.js. Allows users to manage tasks efficiently with CRUD operations. ",
+  "main": "index.js",
+  "type": "module",
+  "bin" : "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.16"
+  }
+}
